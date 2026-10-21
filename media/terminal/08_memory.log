@@ -1,0 +1,11 @@
+sreemanti@MacBook-Pro langgraph-research-agent % python show_memory.py Which sensors and signals give early warning of pump faults?
+W1021 08:07:31.945000 96775 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+5 notes in memory
+
+  5 notes from: How is machine learning used to detect faults in centrifugal pumps?
+
+recall for: Which sensors and signals give early warning of pump faults?
+ - Three machine learning classifiers - Random Forest, Extreme Gradient Boosting (XGBoost), and Support
+   https://arxiv.org/abs/2508.15550v1
+ - Five key operational parameters were monitored: vibration, temperature, flow rate, pressure, and ele
+   https://arxiv.org/abs/2508.15550v1

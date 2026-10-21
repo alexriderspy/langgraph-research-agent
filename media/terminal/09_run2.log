@@ -1,0 +1,47 @@
+sreemanti@MacBook-Pro langgraph-research-agent % python run.py Which sensors and signals give early warning of pump faults?
+W1021 08:07:41.953000 96791 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+[   0.2s] recall: 2 notes from past research
+[   8.1s] plan: 3 sub-questions
+[  14.9s] search: 3 tool calls: search_arxiv('pump fault sensors accuracy vibration temperature flow rate pressure electrical current'), search_wikipedia('machine learning classifiers comparison Random Forest XGBoost SVM pump fault detection'), search_hackernews('pump fault machine learning features early warning')
+[  64.5s] tools: ran 3 tool calls
+[  67.5s] read: 3 of 3 new sources readable
+[  67.5s]    wikipedia Statistical classification
+[  67.5s]    wikipedia List of datasets for machine-learning research
+[  67.5s]    wikipedia Ensemble learning
+[  88.0s]    0 notes from Statistical classification
+[  88.0s]    0 notes from List of datasets for machine-learning research
+[  88.0s]    0 notes from Ensemble learning
+[  88.0s] notes: kept 0, dropped 0 whose quote wasn't in the source
+[ 102.1s] reflect: round 1, enough=False, missing 2
+[ 108.7s] search: 3 tool calls: search_wikipedia('pump sensors vibration temperature flow rate pressure electrical current'), search_arxiv('Random Forest XGBoost SVM pump fault prediction'), search_hackernews('Random Forest XGBoost SVM pump fault detection performance')
+[ 111.9s] tools: ran 3 tool calls
+[ 115.3s] read: 4 of 4 new sources readable
+[ 115.3s]    wikipedia Thermoelectric heat pump
+[ 115.3s]    arxiv     Optimizing Mortality Prediction for ICU Heart Failure Patients: Leveraging XGBoo
+[ 115.3s]    web       Off Decision Trees, Random Forests, AdaBoost and XGBoost in Python
+[ 115.3s]    wikipedia Vibration isolation
+[ 145.4s]    0 notes from Thermoelectric heat pump
+[ 145.4s]    0 notes from Optimizing Mortality Prediction for ICU Heart Failure Patients: Levera
+[ 145.4s]    0 notes from Off Decision Trees, Random Forests, AdaBoost and XGBoost in Python
+[ 145.4s]    0 notes from Vibration isolation
+[ 145.4s] notes: kept 0, dropped 0 whose quote wasn't in the source
+[ 155.6s] reflect: round 2, enough=False, missing 2
+[ 171.8s] write: 4 sentences, 4 supported, 0 weak, 0 removed
+[ 171.8s] remember: saved 0 new notes
+
+brief saved to briefs/which-sensors-and-signals-give-early-warning-of-pump-faults.md
+
+# Early Warning Signals for Pump Faults
+
+## Machine Learning Classifiers
+
+Three machine learning classifiers - Random Forest, Extreme Gradient Boosting (XGBoost), and Support Vector Machine (SVM) - were trained to distinguish between normal operation, early warnings, and critical alerts [1].
+
+## Operational Parameters
+
+Five key operational parameters were monitored: vibration, temperature, flow rate, pressure, and electrical current [1].
+
+## Sources
+
+1. [AI-Powered Machine Learning Approaches for Fault Diagnosis in Industrial Pumps](https://arxiv.org/abs/2508.15550v1)
+

@@ -1,0 +1,4 @@
+{"question": "How is machine learning used to detect faults in centrifugal pumps?", "must_cover": ["vibration", "random forest|svm|cnn|neural|xgboost|classifier", "accuracy"]}
+{"question": "What causes cavitation in pumps and how can it be detected?", "must_cover": ["vapour|vapor", "pressure", "noise|vibration|acoustic", "npsh|net positive suction"]}
+{"question": "What is retrieval-augmented generation and why does it reduce hallucinations?", "must_cover": ["retriev", "hallucinat", "document|source|knowledge"]}
+{"question": "How does LoRA make fine-tuning large language models cheaper?", "must_cover": ["low-rank|low rank", "parameter", "memory|gpu"]}

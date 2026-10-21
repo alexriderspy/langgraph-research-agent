@@ -1,0 +1,52 @@
+sreemanti@MacBook-Pro langgraph-research-agent % python run.py How is machine learning used to detect faults in centrifugal pumps?
+W1021 08:04:17.063000 96571 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+[   0.0s] recall: 0 notes from past research
+[   6.8s] plan: 3 sub-questions
+[  17.2s] search: 3 tool calls: search_arxiv('centrifugal pump fault machine learning'), search_wikipedia('centrifugal pump fault detection machine learning algorithms'), search_hackernews('machine learning fault detection centrifugal pump accuracy efficiency')
+[  35.9s] tools: ran 3 tool calls
+[  37.7s] read: 4 of 4 new sources readable
+[  37.7s]    arxiv     An Intelligent Approach to Detecting Novel Fault Classes for Centrifugal Pumps B
+[  37.7s]    wikipedia Condition monitoring
+[  37.7s]    web       How machine learning trains us to appear insane to one another
+[  37.7s]    arxiv     AI-Powered Machine Learning Approaches for Fault Diagnosis in Industrial Pumps
+[  75.0s]    2 notes from An Intelligent Approach to Detecting Novel Fault Classes for Centrifug
+[  75.0s]    0 notes from Condition monitoring
+[  75.0s]    0 notes from How machine learning trains us to appear insane to one another
+[  75.0s]    3 notes from AI-Powered Machine Learning Approaches for Fault Diagnosis in Industri
+[  75.0s] notes: kept 5, dropped 0 whose quote wasn't in the source
+[  82.4s] reflect: round 1, enough=False, missing 2
+[  96.9s] search: 3 tool calls: search_arxiv('centrifugal pump fault detection machine learning'), search_wikipedia('centrifugal pump faults machine learning'), search_hackernews('centrifugal pump fault detection improvement')
+[ 126.0s] tools: ran 3 tool calls
+[ 128.9s] read: 3 of 3 new sources readable
+[ 128.9s]    wikipedia Chiller
+[ 128.9s]    wikipedia Net positive suction head
+[ 128.9s]    wikipedia Building automation
+[ 152.1s]    0 notes from Chiller
+[ 152.1s]    0 notes from Net positive suction head
+[ 152.1s]    0 notes from Building automation
+[ 152.1s] notes: kept 0, dropped 0 whose quote wasn't in the source
+[ 161.8s] reflect: round 2, enough=False, missing 2
+[ 185.6s] write: 10 sentences, 10 supported, 0 weak, 0 removed
+[ 185.7s] remember: saved 5 new notes
+
+brief saved to briefs/how-is-machine-learning-used-to-detect-faults-in-centrifugal.md
+
+# Machine Learning for Fault Detection in Centrifugal Pumps
+
+## Methodology
+
+A combination of t-SNE method and clustering techniques is then employed to detect novel faults [1]. Five key operational parameters were monitored: vibration, temperature, flow rate, pressure, and electrical current [2]. A dual-threshold labeling method was applied, combining fixed engineering limits with adaptive thresholds calculated as the 95th percentile of historical sensor values [2].
+
+## Classification
+
+Three machine learning classifiers - Random Forest, Extreme Gradient Boosting (XGBoost), and Support Vector Machine (SVM) - were trained to distinguish between normal operation, early warnings, and critical alerts [2].
+
+## Validation
+
+Finally, a test setup is used to validate this two-stage methodology on a centrifugal pump [1].
+
+## Sources
+
+1. [An Intelligent Approach to Detecting Novel Fault Classes for Centrifugal Pumps Based on Deep CNNs and Unsupervised Methods](https://arxiv.org/abs/2309.12765v1)
+2. [AI-Powered Machine Learning Approaches for Fault Diagnosis in Industrial Pumps](https://arxiv.org/abs/2508.15550v1)
+

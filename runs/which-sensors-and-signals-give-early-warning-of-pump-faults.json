@@ -1,0 +1,46 @@
+{
+  "question": "Which sensors and signals give early warning of pump faults?",
+  "seconds": 171.8,
+  "citations": {
+    "sentences": [
+      {
+        "sentence": "Three machine learning classifiers - Random Forest, Extreme Gradient Boosting (XGBoost), and Support Vector Machine (SVM) - were trained to distinguish between normal operation, early warnings, and critical alerts.",
+        "cited": [
+          1
+        ],
+        "status": "ok",
+        "support": 0.965
+      },
+      {
+        "sentence": "Five key operational parameters were monitored: vibration, temperature, flow rate, pressure, and electrical current.",
+        "cited": [
+          1
+        ],
+        "status": "ok",
+        "support": 0.947
+      },
+      {
+        "sentence": "Three machine learning classifiers - Random Forest, Extreme Gradient Boosting (XGBoost), and Support Vector Machine (SVM) - were trained to distinguish between normal operation, early warnings, and critical alerts.",
+        "cited": [
+          1
+        ],
+        "status": "ok",
+        "support": 0.965
+      },
+      {
+        "sentence": "Five key operational parameters were monitored: vibration, temperature, flow rate, pressure, and electrical current.",
+        "cited": [
+          1
+        ],
+        "status": "ok",
+        "support": 0.947
+      }
+    ],
+    "counts": {
+      "ok": 4,
+      "weak": 0,
+      "uncited": 0,
+      "bad_number": 0
+    }
+  }
+}

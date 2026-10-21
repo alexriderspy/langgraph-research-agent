@@ -1,0 +1,5 @@
+sreemanti@MacBook-Pro langgraph-research-agent % python try_tool_calling.py
+answered in 7.6s
+text content: ''
+tool call: search_wikipedia {'query': 'causes of cavitation in centrifugal pumps'}
+tool call: search_arxiv {'query': 'machine learning pump fault detection recent'}

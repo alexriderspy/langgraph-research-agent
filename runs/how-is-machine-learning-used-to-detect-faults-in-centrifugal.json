@@ -1,0 +1,94 @@
+{
+  "question": "How is machine learning used to detect faults in centrifugal pumps?",
+  "seconds": 185.7,
+  "citations": {
+    "sentences": [
+      {
+        "sentence": "A combination of t-SNE method and clustering techniques is then employed to detect novel faults.",
+        "cited": [
+          1
+        ],
+        "status": "ok",
+        "support": 0.961
+      },
+      {
+        "sentence": "Five key operational parameters were monitored: vibration, temperature, flow rate, pressure, and electrical current.",
+        "cited": [
+          2
+        ],
+        "status": "ok",
+        "support": 0.947
+      },
+      {
+        "sentence": "A dual-threshold labeling method was applied, combining fixed engineering limits with adaptive thresholds calculated as the 95th percentile of historical sensor values.",
+        "cited": [
+          2
+        ],
+        "status": "ok",
+        "support": 0.959
+      },
+      {
+        "sentence": "Three machine learning classifiers - Random Forest, Extreme Gradient Boosting (XGBoost), and Support Vector Machine (SVM) - were trained to distinguish between normal operation, early warnings, and critical alerts.",
+        "cited": [
+          2
+        ],
+        "status": "ok",
+        "support": 0.965
+      },
+      {
+        "sentence": "Finally, a test setup is used to validate this two-stage methodology on a centrifugal pump.",
+        "cited": [
+          1
+        ],
+        "status": "ok",
+        "support": 0.921
+      },
+      {
+        "sentence": "A combination of t-SNE method and clustering techniques is then employed to detect novel faults.",
+        "cited": [
+          1
+        ],
+        "status": "ok",
+        "support": 0.961
+      },
+      {
+        "sentence": "Five key operational parameters were monitored: vibration, temperature, flow rate, pressure, and electrical current.",
+        "cited": [
+          2
+        ],
+        "status": "ok",
+        "support": 0.947
+      },
+      {
+        "sentence": "A dual-threshold labeling method was applied, combining fixed engineering limits with adaptive thresholds calculated as the 95th percentile of historical sensor values.",
+        "cited": [
+          2
+        ],
+        "status": "ok",
+        "support": 0.959
+      },
+      {
+        "sentence": "Three machine learning classifiers - Random Forest, Extreme Gradient Boosting (XGBoost), and Support Vector Machine (SVM) - were trained to distinguish between normal operation, early warnings, and critical alerts.",
+        "cited": [
+          2
+        ],
+        "status": "ok",
+        "support": 0.965
+      },
+      {
+        "sentence": "Finally, a test setup is used to validate this two-stage methodology on a centrifugal pump.",
+        "cited": [
+          1
+        ],
+        "status": "ok",
+        "support": 0.921
+      }
+    ],
+    "counts": {
+      "ok": 10,
+      "weak": 0,
+      "uncited": 0,
+      "bad_number": 0
+    }
+  }
+}

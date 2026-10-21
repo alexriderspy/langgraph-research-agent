@@ -1,0 +1,32 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	recall(recall)
+	plan(plan)
+	search(search)
+	tools(tools)
+	read(read)
+	take_notes(take_notes)
+	reflect(reflect)
+	write(write)
+	remember(remember)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> recall;
+	plan --> search;
+	read --> take_notes;
+	recall --> plan;
+	reflect -.-> search;
+	reflect -.-> write;
+	search -. &nbsp;__end__&nbsp; .-> read;
+	search -.-> tools;
+	take_notes --> reflect;
+	tools --> read;
+	write --> remember;
+	remember --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

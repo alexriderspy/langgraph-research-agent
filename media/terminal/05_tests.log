@@ -1,0 +1,18 @@
+sreemanti@MacBook-Pro langgraph-research-agent % python -m pytest -v
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.1.1, pluggy-1.7.0 -- /private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/90394c69-ec99-42d7-9ec8-69f167dbfd51/scratchpad/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/sreemanti/Documents/Youtube and Insta/videos/research-agent/project
+plugins: langsmith-0.14.11, anyio-4.15.1
+collecting ... collected 8 items
+
+tests/test_citations.py::test_sources_numbered_in_order PASSED           [ 12%]
+tests/test_citations.py::test_check_labels_each_sentence PASSED          [ 25%]
+tests/test_citations.py::test_render_keeps_supported_and_renumbers PASSED [ 37%]
+tests/test_citations.py::test_quote_must_be_in_the_page PASSED           [ 50%]
+tests/test_memory.py::test_save_is_idempotent_and_recall_finds_related PASSED [ 62%]
+tests/test_nodes.py::test_latest_hits_takes_turns_between_tools PASSED   [ 75%]
+tests/test_reader.py::test_chunk_packs_paragraphs PASSED                 [ 87%]
+tests/test_reader.py::test_relevant_passages_keeps_the_on_topic_chunk PASSED [100%]
+
+============================== 8 passed in 10.31s ==============================

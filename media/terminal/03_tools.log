@@ -1,0 +1,34 @@
+sreemanti@MacBook-Pro langgraph-research-agent % python try_tools.py
+W1021 07:50:33.664000 92272 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+== search_arxiv: 3 hits ==
+- An Intelligent Approach to Detecting Novel Fault Classes for Centrifugal Pumps Based on Deep CNNs and Unsupervised Methods (https://arxiv.org/abs/2309.12765v1)
+- AI-Powered Machine Learning Approaches for Fault Diagnosis in Industrial Pumps (https://arxiv.org/abs/2508.15550v1)
+- Short-Horizon Predictive Maintenance of Industrial Pumps Using Time-Series Features and Machine Learning (https://arxiv.org/abs/2508.19974v1)
+
+== search_wikipedia: 3 hits ==
+- Net positive suction head (https://en.wikipedia.org/wiki/Net_positive_suction_head)
+- Chiller (https://en.wikipedia.org/wiki/Chiller)
+- Pumping station (https://en.wikipedia.org/wiki/Pumping_station)
+
+== search_hackernews: 0 hits ==
+no results
+
+== read Centrifugal pump: 26,681 characters ==
+
+---
+Like most pumps, a centrifugal pump converts rotational energy, often from a motor, to energy in a moving fluid. A portion of the energy goes into kinetic energy of the fluid. Fluid enters axially through eye of the casing, is caught up in the impeller blades, and is whirled tangentially and radially outward until it leaves through all circumferential parts of the impeller into the diffuser part o
+
+---
+Cavitation—the net positive suction head (NPSH) of the system is too low for the selected pump
+Wear of the impeller—can be worsened by suspended solids or cavitation
+Corrosion inside the pump caused by the fluid properties
+Overheating due to low flow
+Leakage along rotating shaft.
+Lack of prime—centrifugal pumps must be filled (with the fluid to be pumped) in order to operate
+Surge
+Viscous liquids 
+
+---
+== Priming ==
+The process of filling the pump with liquid is called priming. All centrifugal pumps require liquid in the liquid casing to prime. If the pump casing becomes filled with vapors or gases, the pump impeller becomes gas-bound and incapable of pumping.  To ensure that a centrifugal pump remains primed and does not become gas-bound, most centrifugal pumps are located below the level of th

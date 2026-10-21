@@ -1,0 +1,46 @@
+[
+  {
+    "question": "How is machine learning used to detect faults in centrifugal pumps?",
+    "sentences": 5,
+    "supported": 5,
+    "coverage": 0.6666666666666666,
+    "rounds": 2,
+    "tool_calls": 6,
+    "sources_read": 7,
+    "notes": 5,
+    "seconds": 127
+  },
+  {
+    "question": "What causes cavitation in pumps and how can it be detected?",
+    "sentences": 6,
+    "supported": 5,
+    "coverage": 0.25,
+    "rounds": 2,
+    "tool_calls": 7,
+    "sources_read": 6,
+    "notes": 2,
+    "seconds": 218
+  },
+  {
+    "question": "What is retrieval-augmented generation and why does it reduce hallucinations?",
+    "sentences": 6,
+    "supported": 6,
+    "coverage": 1.0,
+    "rounds": 2,
+    "tool_calls": 7,
+    "sources_read": 8,
+    "notes": 8,
+    "seconds": 223
+  },
+  {
+    "question": "How does LoRA make fine-tuning large language models cheaper?",
+    "sentences": 4,
+    "supported": 4,
+    "coverage": 0.6666666666666666,
+    "rounds": 2,
+    "tool_calls": 7,
+    "sources_read": 7,
+    "notes": 5,
+    "seconds": 247
+  }
+]

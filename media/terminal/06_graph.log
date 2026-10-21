@@ -1,0 +1,66 @@
+sreemanti@MacBook-Pro langgraph-research-agent % python draw_graph.py
+W1021 07:51:02.695000 92746 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+                 +-----------+             
+                 | __start__ |             
+                 +-----------+             
+                       *                   
+                       *                   
+                       *                   
+                  +--------+               
+                  | recall |               
+                  +--------+               
+                       *                   
+                       *                   
+                       *                   
+                   +------+                
+                   | plan |                
+                   +------+                
+                       *                   
+                       *                   
+                       *                   
+                  +--------+               
+                  | search |               
+                ..+--------+...            
+             ...       .       ...         
+          ...         .           ...      
+        ..            .              ...   
++-------+             .                 .. 
+| tools |           ..                   . 
++-------+          .                     . 
+         *        .                      . 
+          **    ..                       . 
+            *  .                         . 
+         +------+                        . 
+         | read |                        . 
+         +------+                        . 
+             *                           . 
+             *                           . 
+             *                           . 
+      +------------+                    .. 
+      | take_notes |                 ...   
+      +------------+              ...      
+                  **           ...         
+                    **      ...            
+                      *   ..               
+                  +---------+              
+                  | reflect |              
+                  +---------+              
+                       .                   
+                       .                   
+                       .                   
+                   +-------+               
+                   | write |               
+                   +-------+               
+                       *                   
+                       *                   
+                       *                   
+                 +----------+              
+                 | remember |              
+                 +----------+              
+                       *                   
+                       *                   
+                       *                   
+                  +---------+              
+                  | __end__ |              
+                  +---------+              
+wrote media/graph.mmd and media/graph.png

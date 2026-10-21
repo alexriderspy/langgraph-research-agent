@@ -1,0 +1,10 @@
+sreemanti@MacBook-Pro langgraph-research-agent % python evals/run_evals.py
+W1021 08:10:44.173000 97392 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+How is machine learning used to detect faults in centrifug cited  5/5  cover 67%  rounds 2  tools  6  read  7  127s
+What causes cavitation in pumps and how can it be detected cited  5/6  cover 25%  rounds 2  tools  7  read  6  218s
+What is retrieval-augmented generation and why does it red cited  6/6  cover 100%  rounds 2  tools  7  read  8  223s
+How does LoRA make fine-tuning large language models cheap cited  4/4  cover 67%  rounds 2  tools  7  read  7  247s
+
+citation validity: 20/21 = 95% of cited sentences supported
+coverage:          65% of must-cover topics
+average:           2.0 rounds, 6.8 tool calls, 204s per question
